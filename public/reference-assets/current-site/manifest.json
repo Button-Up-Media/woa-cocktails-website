@@ -1,0 +1,706 @@
+{
+  "generatedAt": "2026-05-20T17:40:08.636Z",
+  "siteRoot": "https://www.woacocktails.com",
+  "pages": [
+    {
+      "page": "https://www.woacocktails.com/home",
+      "images": 5
+    },
+    {
+      "page": "https://www.woacocktails.com/services",
+      "images": 3
+    },
+    {
+      "page": "https://www.woacocktails.com/contact",
+      "images": 0
+    },
+    {
+      "page": "https://www.woacocktails.com/inquire-now",
+      "images": 1
+    },
+    {
+      "page": "https://www.woacocktails.com/about",
+      "images": 2
+    },
+    {
+      "page": "https://www.woacocktails.com/classes",
+      "images": 1
+    },
+    {
+      "page": "https://www.woacocktails.com/events",
+      "images": 0
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-two-ky966-9c4lg",
+      "images": 21
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "images": 53
+    },
+    {
+      "page": "https://www.woacocktails.com/events/woa-x-ink-cocktail-class",
+      "images": 3
+    }
+  ],
+  "files": [
+    {
+      "page": "https://www.woacocktails.com/home",
+      "folder": "home",
+      "fileName": "home-01-597a1705-1.jpg",
+      "localPath": "/reference-assets/current-site/home/home-01-597a1705-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/1710533765747-13P2A9UJDLCPLSPZKGEH/597A1705-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/home",
+      "folder": "home",
+      "fileName": "home-02-597a2158-1.jpg",
+      "localPath": "/reference-assets/current-site/home/home-02-597a2158-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/1710533765752-K18DT2O9C2SR2B6317QF/597A2158-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/home",
+      "folder": "home",
+      "fileName": "home-03-597a1755-2.jpg",
+      "localPath": "/reference-assets/current-site/home/home-03-597a1755-2.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/1710533765762-LGV2DN2WJY882I5GXZJP/597A1755-2.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/home",
+      "folder": "home",
+      "fileName": "home-04-597a1974-1.jpg",
+      "localPath": "/reference-assets/current-site/home/home-04-597a1974-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/1710533765759-I64P40I4PTILZN8HA7LZ/597A1974-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/home",
+      "folder": "home",
+      "fileName": "home-05-597a1832-3.jpg",
+      "localPath": "/reference-assets/current-site/home/home-05-597a1832-3.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/1710533765756-ZSFN37ZB8L7S7B0SFZHM/597A1832-3.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/services",
+      "folder": "services",
+      "fileName": "services-01-img_5855.jpeg",
+      "localPath": "/reference-assets/current-site/services/services-01-img_5855.jpeg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/8a391bea-bbb3-4299-9828-56b0f9bc2f9f/IMG_5855.jpeg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "shared",
+      "fileName": "shared-01-597a9396-1.jpg",
+      "localPath": "/reference-assets/current-site/shared/shared-01-597a9396-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/5cd456c9-1fda-428a-a8d5-68e68cc9e171/597A9396-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/services",
+      "folder": "services",
+      "fileName": "services-03-597a2018-1-(1).jpg",
+      "localPath": "/reference-assets/current-site/services/services-03-597a2018-1-(1).jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/1710533768313-EF1Y1JCBY1IJJM1OGTXO/597A2018-1+%281%29.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/inquire-now",
+      "folder": "contact",
+      "fileName": "contact-01-597a1853-2.jpg",
+      "localPath": "/reference-assets/current-site/contact/contact-01-597a1853-2.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/1710533770523-PDY9EXZOGA2FSO7G0IUG/597A1853-2.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/about",
+      "folder": "about",
+      "fileName": "about-01-597a1622-1.jpg",
+      "localPath": "/reference-assets/current-site/about/about-01-597a1622-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/1710533772553-WTVUAJQWAIW26NTUVNV0/597A1622-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/about",
+      "folder": "about",
+      "fileName": "about-02-597a2161-1.jpg",
+      "localPath": "/reference-assets/current-site/about/about-02-597a2161-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/1710533772556-9XEZN4E5M6SOCMIL6FPZ/597A2161-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/classes",
+      "folder": "classes",
+      "fileName": "classes-01-img_5889.jpeg",
+      "localPath": "/reference-assets/current-site/classes/classes-01-img_5889.jpeg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/4d485156-444e-4f55-aabf-dca0ec57a917/IMG_5889.jpeg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-two-ky966-9c4lg",
+      "folder": "events/style-bender",
+      "fileName": "events-style-bender-01-597a1849-enhanced-nr-1.jpg",
+      "localPath": "/reference-assets/current-site/events/style-bender/events-style-bender-01-597a1849-enhanced-nr-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/6b13c3a4-4720-4f87-be49-6fcd0ba90225/597A1849-Enhanced-NR-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-two-ky966-9c4lg",
+      "folder": "events/style-bender",
+      "fileName": "events-style-bender-02-597a1785-1.jpg",
+      "localPath": "/reference-assets/current-site/events/style-bender/events-style-bender-02-597a1785-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/652220a3-f9f8-48cb-9191-67ec59665a15/597A1785-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-two-ky966-9c4lg",
+      "folder": "events/style-bender",
+      "fileName": "events-style-bender-03-597a1934-1.jpg",
+      "localPath": "/reference-assets/current-site/events/style-bender/events-style-bender-03-597a1934-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/1a225c39-68fa-447a-88af-960d1a45bdd2/597A1934-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-two-ky966-9c4lg",
+      "folder": "events/style-bender",
+      "fileName": "events-style-bender-04-597a1889-1.jpg",
+      "localPath": "/reference-assets/current-site/events/style-bender/events-style-bender-04-597a1889-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/32946981-313a-457d-812f-1b9ae3463f67/597A1889-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-two-ky966-9c4lg",
+      "folder": "events/style-bender",
+      "fileName": "events-style-bender-05-597a1875-1.jpg",
+      "localPath": "/reference-assets/current-site/events/style-bender/events-style-bender-05-597a1875-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/25eeb72c-8446-43f4-ac33-994d444687ae/597A1875-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-two-ky966-9c4lg",
+      "folder": "events/style-bender",
+      "fileName": "events-style-bender-06-597a1806-1.jpg",
+      "localPath": "/reference-assets/current-site/events/style-bender/events-style-bender-06-597a1806-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/51bba744-1f9a-4c78-8acf-e43a686fa7a3/597A1806-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-two-ky966-9c4lg",
+      "folder": "events/style-bender",
+      "fileName": "events-style-bender-07-597a1930-2.jpg",
+      "localPath": "/reference-assets/current-site/events/style-bender/events-style-bender-07-597a1930-2.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/09212fe6-cce8-4b8f-ae52-906c659beb70/597A1930-2.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-two-ky966-9c4lg",
+      "folder": "events/style-bender",
+      "fileName": "events-style-bender-08-597a1854-1.jpg",
+      "localPath": "/reference-assets/current-site/events/style-bender/events-style-bender-08-597a1854-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/a4575fbf-a65c-42b5-b950-fce5ef2ef8a9/597A1854-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-two-ky966-9c4lg",
+      "folder": "events/style-bender",
+      "fileName": "events-style-bender-09-597a1953-1.jpg",
+      "localPath": "/reference-assets/current-site/events/style-bender/events-style-bender-09-597a1953-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/fa36a1a9-dee9-4b91-bf82-d64d37e258f4/597A1953-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-two-ky966-9c4lg",
+      "folder": "events/style-bender",
+      "fileName": "events-style-bender-10-597a1944-1.jpg",
+      "localPath": "/reference-assets/current-site/events/style-bender/events-style-bender-10-597a1944-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/3ff0aa0d-6100-4a74-989f-6223d02ac445/597A1944-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-two-ky966-9c4lg",
+      "folder": "events/style-bender",
+      "fileName": "events-style-bender-11-597a1897-1.jpg",
+      "localPath": "/reference-assets/current-site/events/style-bender/events-style-bender-11-597a1897-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/fb4b3278-f9b5-4ba1-a1a4-b62ceee4abfd/597A1897-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-two-ky966-9c4lg",
+      "folder": "events/style-bender",
+      "fileName": "events-style-bender-12-597a1863-1.jpg",
+      "localPath": "/reference-assets/current-site/events/style-bender/events-style-bender-12-597a1863-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/151ced78-108d-40a4-a6ec-639f792000a9/597A1863-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-two-ky966-9c4lg",
+      "folder": "events/style-bender",
+      "fileName": "events-style-bender-13-597a1784-22.jpg",
+      "localPath": "/reference-assets/current-site/events/style-bender/events-style-bender-13-597a1784-22.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/f60e8e6c-2541-4a23-aeb9-38ef81d5811a/597A1784-22.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-two-ky966-9c4lg",
+      "folder": "events/style-bender",
+      "fileName": "events-style-bender-14-597a1967-1.jpg",
+      "localPath": "/reference-assets/current-site/events/style-bender/events-style-bender-14-597a1967-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/e5cc7fc7-9816-4394-ae46-4b135c3841f2/597A1967-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-two-ky966-9c4lg",
+      "folder": "events/style-bender",
+      "fileName": "events-style-bender-15-597a1939-2.jpg",
+      "localPath": "/reference-assets/current-site/events/style-bender/events-style-bender-15-597a1939-2.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/a3b32f77-5e93-43f2-8807-5450e348c160/597A1939-2.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-two-ky966-9c4lg",
+      "folder": "events/style-bender",
+      "fileName": "events-style-bender-16-597a1890-2.jpg",
+      "localPath": "/reference-assets/current-site/events/style-bender/events-style-bender-16-597a1890-2.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/4c64f5ba-0655-47a8-bdf9-22359f70c618/597A1890-2.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-two-ky966-9c4lg",
+      "folder": "events/style-bender",
+      "fileName": "events-style-bender-17-597a1936-1.jpg",
+      "localPath": "/reference-assets/current-site/events/style-bender/events-style-bender-17-597a1936-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/038ef649-9762-46c9-bb7c-1755197d8533/597A1936-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-two-ky966-9c4lg",
+      "folder": "events/style-bender",
+      "fileName": "events-style-bender-18-597a1778-1.jpg",
+      "localPath": "/reference-assets/current-site/events/style-bender/events-style-bender-18-597a1778-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/6d6d1fc1-5956-454b-b650-9eed524ffe56/597A1778-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-two-ky966-9c4lg",
+      "folder": "events/style-bender",
+      "fileName": "events-style-bender-19-597a1826-1.jpg",
+      "localPath": "/reference-assets/current-site/events/style-bender/events-style-bender-19-597a1826-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/41d3240e-b399-436f-a398-d50030587fe5/597A1826-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-two-ky966-9c4lg",
+      "folder": "events/style-bender",
+      "fileName": "events-style-bender-20-597a1841-enhanced-nr-2.jpg",
+      "localPath": "/reference-assets/current-site/events/style-bender/events-style-bender-20-597a1841-enhanced-nr-2.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/542bc9a4-1ea6-4965-ac93-49bff2c6fa01/597A1841-Enhanced-NR-2.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-two-ky966-9c4lg",
+      "folder": "events/style-bender",
+      "fileName": "events-style-bender-21-597a1893-1.jpg",
+      "localPath": "/reference-assets/current-site/events/style-bender/events-style-bender-21-597a1893-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/42d63156-2e62-4856-8414-7aaa644b6bb3/597A1893-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-01-597a9340-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-01-597a9340-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/de8f69f4-4e3f-4bfe-a7f6-f973100a0c20/597A9340-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-02-597a9327-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-02-597a9327-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/62500382-affa-49ff-baa5-d413e7dbe1bf/597A9327-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-03-597a9346-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-03-597a9346-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/3c300974-bed3-4194-af33-878158f62071/597A9346-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-04-597a9414-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-04-597a9414-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/eddfb590-d3c6-48a2-8032-f91eb8fa7d85/597A9414-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-05-597a9417-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-05-597a9417-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/b9f94873-dd5e-4802-bdfe-0cb5918b91d9/597A9417-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-06-597a9486-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-06-597a9486-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/dedba93b-eb58-4d80-873b-1d2beae7171d/597A9486-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-07-597a9450-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-07-597a9450-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/085528b7-3da7-4ff3-9eb8-4d60ae119cd4/597A9450-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-08-597a9405-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-08-597a9405-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/8f0db46c-4117-4c23-95c4-1417b8f1511d/597A9405-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-09-597a9426-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-09-597a9426-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/84f0fd3c-0512-46eb-854c-c16a05015779/597A9426-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-10-597a9348-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-10-597a9348-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/8fc37bb9-62f6-4085-a062-e1a7c4fd9788/597A9348-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-11-597a9456-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-11-597a9456-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/bc77fdd6-204c-4410-8ee8-6c3f2e4c1ebd/597A9456-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-12-597a9360-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-12-597a9360-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/15ee3302-829a-42b3-bcbe-16d488532b9f/597A9360-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-13-597a9440-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-13-597a9440-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/fe5f4b5b-25fe-467d-9856-5972ec062340/597A9440-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-14-597a9423-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-14-597a9423-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/2aa1bab9-f3d1-415c-b0db-8d3307e6b216/597A9423-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-15-597a9355-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-15-597a9355-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/73180bce-f728-4707-890e-7ac168129b28/597A9355-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-16-597a9465-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-16-597a9465-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/5c5a95ef-ef4f-4e14-9834-745606c881ab/597A9465-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-17-597a9429-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-17-597a9429-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/e64f56e6-253c-43ec-bcbc-cd8ea4f55e6f/597A9429-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-18-597a9523-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-18-597a9523-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/06328a39-f0d7-4bda-baea-d169556d797a/597A9523-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-19-597a9420-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-19-597a9420-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/514026c8-6545-48af-85a9-c12b8e973cf2/597A9420-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-20-597a9477-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-20-597a9477-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/75a3cd57-ebad-4218-9e4b-f595be06825f/597A9477-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-21-597a9493-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-21-597a9493-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/7e75550e-390e-4806-8e91-010ce2b4e557/597A9493-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-22-597a9451-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-22-597a9451-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/d39ad865-ee97-4bd6-8265-61baef34458b/597A9451-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-23-597a9459-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-23-597a9459-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/b0197bd2-e84a-4cf3-ab6f-df9493bfd4e8/597A9459-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-24-597a9469-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-24-597a9469-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/b04e38d1-57b7-41ea-91e5-a94b8c96168f/597A9469-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-26-597a9485-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-26-597a9485-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/3c6ce719-fc0f-4e30-98a4-849fd5940a43/597A9485-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-27-597a9521-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-27-597a9521-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/ef74937b-2418-4f82-8aa0-1473ca83e72e/597A9521-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-28-597a9439-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-28-597a9439-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/32e5911c-b01f-48eb-ac8f-4b472dddc9fc/597A9439-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-29-597a9517-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-29-597a9517-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/b9d332ec-ba0b-48be-872e-f001a7e12572/597A9517-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-30-597a9460-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-30-597a9460-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/1319b751-f7fb-4c36-96fc-c59d8175ba85/597A9460-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-31-597a9547-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-31-597a9547-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/57238b83-e592-4bce-81b9-8ef01116fb65/597A9547-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-32-597a9480-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-32-597a9480-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/6e350295-f88c-45be-9c78-0243e6789784/597A9480-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-33-597a9646-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-33-597a9646-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/78f15ff8-916c-4193-8047-0231b81657fc/597A9646-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-34-597a9572-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-34-597a9572-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/d4f1b69f-e002-4800-9434-a5be885951f4/597A9572-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-35-597a9544-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-35-597a9544-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/5ddcb6e0-2503-4a4e-a34e-a3d88d9670f3/597A9544-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-36-597a9508-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-36-597a9508-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/b4b69a6f-bc73-4bde-a98e-5a02137f4272/597A9508-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-37-597a9534-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-37-597a9534-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/b316a1b4-9a7d-4602-af19-9eac6020d3b6/597A9534-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-38-597a9573-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-38-597a9573-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/a6ae0f73-cbba-47cc-9e7b-7ed40b1b1e4e/597A9573-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-39-597a9474-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-39-597a9474-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/fe5c23ca-9f4f-4925-a452-64c1523b972b/597A9474-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-40-597a9554-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-40-597a9554-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/40777687-c018-4a69-b0e5-f3a014fac001/597A9554-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-41-597a9596-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-41-597a9596-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/dc6a4527-a707-432f-a464-51d28f336c33/597A9596-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-42-597a9541-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-42-597a9541-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/ecd9604a-2720-4390-bf23-899eb903c973/597A9541-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-43-597a9586-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-43-597a9586-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/406e4baf-0aa4-40e2-bbd0-6b4446e63e10/597A9586-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-44-597a9504-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-44-597a9504-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/6cf228f9-7c86-47ef-a59f-b1644993c0df/597A9504-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-45-597a9661-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-45-597a9661-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/b67c7abd-1814-459f-84e4-429d182c9ddd/597A9661-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-46-597a9370-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-46-597a9370-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/777c28ac-4285-4dc9-b0c1-020f8ce58f85/597A9370-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-47-597a9513-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-47-597a9513-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/05871106-d2ba-410e-bff6-808e6d2f5846/597A9513-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-48-597a9393-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-48-597a9393-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/193836fb-d124-41f5-a424-47e59a3daca5/597A9393-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-49-597a9617-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-49-597a9617-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/c07ff67b-ea18-4209-bfad-b825d283c1fe/597A9617-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-50-597a9583-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-50-597a9583-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/f8a31b8f-8858-41b7-9267-da83f63350c6/597A9583-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-51-597a9600-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-51-597a9600-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/94b183fe-76d3-4fd4-a058-92ab863da207/597A9600-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-52-597a9699-1.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-52-597a9699-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/43f5d8f9-d7ed-424e-a59d-5dfc8d00ad42/597A9699-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/project-one-f5w4d-p74fz",
+      "folder": "events/summer-party",
+      "fileName": "events-summer-party-53-597a9703-2.jpg",
+      "localPath": "/reference-assets/current-site/events/summer-party/events-summer-party-53-597a9703-2.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/5f6b9281-f149-4d7c-9311-ea65cfe0fbe2/597A9703-2.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/woa-x-ink-cocktail-class",
+      "folder": "events/ink-cocktail-class",
+      "fileName": "events-ink-cocktail-class-01-screen-shot-2024-03-16-at-11.53.53-am.png",
+      "localPath": "/reference-assets/current-site/events/ink-cocktail-class/events-ink-cocktail-class-01-screen-shot-2024-03-16-at-11.53.53-am.png",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/4b8320cc-e5aa-4a4c-b4d0-85a4ca80f3e0/Screen+Shot+2024-03-16+at+11.53.53+AM.png"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/woa-x-ink-cocktail-class",
+      "folder": "events/ink-cocktail-class",
+      "fileName": "events-ink-cocktail-class-02-screen-shot-2024-03-16-at-11.54.07-am.png",
+      "localPath": "/reference-assets/current-site/events/ink-cocktail-class/events-ink-cocktail-class-02-screen-shot-2024-03-16-at-11.54.07-am.png",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/d77954f7-6a2f-4dae-ad6b-45885dcd84c8/Screen+Shot+2024-03-16+at+11.54.07+AM.png"
+    },
+    {
+      "page": "https://www.woacocktails.com/events/woa-x-ink-cocktail-class",
+      "folder": "events/ink-cocktail-class",
+      "fileName": "events-ink-cocktail-class-03-screen-shot-2024-03-16-at-11.54.17-am.png",
+      "localPath": "/reference-assets/current-site/events/ink-cocktail-class/events-ink-cocktail-class-03-screen-shot-2024-03-16-at-11.54.17-am.png",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/5467ad62-a377-444b-abc2-7793aba7fb24/Screen+Shot+2024-03-16+at+11.54.17+AM.png"
+    },
+    {
+      "page": "https://www.woacocktails.com/",
+      "folder": "brand",
+      "fileName": "brand-01-favicon.ico",
+      "localPath": "/reference-assets/current-site/brand/brand-01-favicon.ico",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/0f862b54-4daa-4197-a892-c0e9c74178ef/favicon.ico?format=100w"
+    },
+    {
+      "page": "https://www.woacocktails.com/",
+      "folder": "brand",
+      "fileName": "brand-02-untitled-design-64.png",
+      "localPath": "/reference-assets/current-site/brand/brand-02-untitled-design-64.png",
+      "sourceUrl": "https://static1.squarespace.com/static/65f4ac853dd9573b28fc9a4f/t/65f4ac8e3dd9573b28fc9b6f/1709254359467/Untitled+design+%2864%29.png?format=1500w"
+    },
+    {
+      "page": "https://www.woacocktails.com/about",
+      "folder": "about",
+      "fileName": "about-03-597a1871-2.jpg",
+      "localPath": "/reference-assets/current-site/about/about-03-597a1871-2.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/609aeff2-8685-4011-b736-f149ac9ee538/597A1871-2.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events",
+      "folder": "events/index",
+      "fileName": "events-index-01-597a9346-1.jpg",
+      "localPath": "/reference-assets/current-site/events/index/events-index-01-597a9346-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/1710607463471-YKL00N00S9T26A4P5JNY/597A9346-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events",
+      "folder": "events/index",
+      "fileName": "events-index-02-597a1849-enhanced-nr-1.jpg",
+      "localPath": "/reference-assets/current-site/events/index/events-index-02-597a1849-enhanced-nr-1.jpg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/1710607405128-LUSZVQFC1LLX3D3JJPAX/597A1849-Enhanced-NR-1.jpg"
+    },
+    {
+      "page": "https://www.woacocktails.com/events",
+      "folder": "events/index",
+      "fileName": "events-index-03-img_5841.jpeg",
+      "localPath": "/reference-assets/current-site/events/index/events-index-03-img_5841.jpeg",
+      "sourceUrl": "https://images.squarespace-cdn.com/content/v1/65f4ac853dd9573b28fc9a4f/1710607832086-6J01PVABC9L31TG5V221/IMG_5841.jpeg"
+    }
+  ]
+}

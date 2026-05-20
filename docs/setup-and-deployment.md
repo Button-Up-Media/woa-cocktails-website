@@ -19,6 +19,13 @@
 - `main` should represent production-ready code
 - This repo is the base for the full WOA rebuild and future page builds
 
+## Asset intake
+
+- Current-site image and graphic assets were downloaded into `public/reference-assets/current-site`
+- Files are sorted by page or by shared brand use
+- `manifest.json` tracks the source URL and local path for each captured asset
+- One Squarespace graphic on the live site was visible in markup but did not return a raw CDN file, so it remains a follow-up item if the client wants the exact original asset
+
 ## Phase 2-ready targets
 
 - Home
