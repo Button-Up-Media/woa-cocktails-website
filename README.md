@@ -8,6 +8,7 @@ Phase 1 foundation for the WOA Cocktails rebuild.
 - Company GitHub repo structure
 - Vercel-ready deployment base
 - Current-site asset library downloaded and sorted
+- Asset inventory documented in [`docs/asset-inventory.md`](docs/asset-inventory.md)
 - Shared setup and deployment notes
 - Starter pages for foundation and workflow review
 

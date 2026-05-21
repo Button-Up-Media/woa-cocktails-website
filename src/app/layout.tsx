@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   description:
     "WOA Cocktails is a premium mobile bar and hospitality brand serving New York City and Miami.",
   metadataBase: new URL("https://www.woacocktails.com"),
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({

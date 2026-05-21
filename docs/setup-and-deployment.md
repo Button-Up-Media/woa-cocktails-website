@@ -24,7 +24,8 @@
 - Current-site image and graphic assets were downloaded into `public/reference-assets/current-site`
 - Files are sorted by page or by shared brand use
 - `manifest.json` tracks the source URL and local path for each captured asset
-- One Squarespace graphic on the live site was visible in markup but did not return a raw CDN file, so it remains a follow-up item if the client wants the exact original asset
+- The missing Squarespace graphic is the homepage image block `Untitled design (62).png`
+- The exact CDN URL returned `404` during re-extraction, so the original file is not currently recoverable from the live source
 
 ## Phase 2-ready targets
 
