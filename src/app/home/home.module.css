@@ -226,6 +226,26 @@
   transform: rotate(225deg) translateY(-4px);
 }
 
+.logoScrolled {
+  letter-spacing: 0.04em;
+}
+
+.logoScrolled .logoTail {
+  max-width: 4em;
+  opacity: 1;
+  margin-left: 1px;
+}
+
+.logoScrolled .logoSep {
+  max-width: 1em;
+  opacity: 1;
+  margin: 0 10px;
+}
+
+.logoScrolled .logoDiamond {
+  transform: rotate(225deg) translateY(-4px);
+}
+
 .navLinks {
   display: flex;
   align-items: center;
@@ -522,8 +542,9 @@
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(11, 9, 7, 0.55) 0%, rgba(11, 9, 7, 0.18) 30%, rgba(11, 9, 7, 0.55) 70%, rgba(11, 9, 7, 0.96) 100%),
-    linear-gradient(90deg, rgba(11, 9, 7, 0.6) 0%, rgba(11, 9, 7, 0.15) 55%, rgba(11, 9, 7, 0) 100%);
+    radial-gradient(circle at 50% 36%, rgba(197, 48, 45, 0.1), rgba(197, 48, 45, 0) 40%),
+    linear-gradient(180deg, rgba(11, 9, 7, 0.38) 0%, rgba(11, 9, 7, 0.1) 30%, rgba(11, 9, 7, 0.34) 70%, rgba(11, 9, 7, 0.84) 100%),
+    linear-gradient(90deg, rgba(11, 9, 7, 0.52) 0%, rgba(11, 9, 7, 0.12) 55%, rgba(11, 9, 7, 0) 100%);
 }
 
 .heroContent {
@@ -1473,6 +1494,11 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.cover {
+  object-fit: cover;
+  object-position: center center;
 }
 
 @media (max-width: 1180px) {

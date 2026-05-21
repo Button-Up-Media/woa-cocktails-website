@@ -5,7 +5,6 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import styles from "./home.module.css";
 
-type Market = "nyc" | "mia";
 type GalleryFilter = "All" | "Weddings" | "Corporate" | "Rooftop" | "Brand" | "Cocktails";
 
 const SERVICES = [
@@ -44,42 +43,6 @@ const SERVICES = [
       "Interactive cocktail classes that combine entertainment, education and hospitality, led by professional mixologists and designed to feel hands-on and premium.",
     list: ["Team building", "Brand activations", "Private groups", "Off-sites"],
     meta: "1-60 guests",
-  },
-  {
-    id: "svc-popup",
-    n: "04",
-    img: "/reference-assets/design-home/svc-popup.jpg",
-    tag: "Activations",
-    title: ["Pop-Ups &", "Bar Takeovers"],
-    it: "",
-    desc:
-      "Curated hospitality activations and cocktail pop-ups designed to create memorable guest experiences and increase venue engagement.",
-    list: ["Venue takeovers", "Brand launches", "Seasonal activations", "Guest engagement"],
-    meta: "Custom build",
-  },
-  {
-    id: "svc-rentals",
-    n: "05",
-    img: "/reference-assets/design-home/svc-pour.jpg",
-    tag: "Rental",
-    title: ["Luxury Mobile", "Bar Rentals"],
-    it: "",
-    desc:
-      "Luxury mobile bar rentals available for intimate gatherings and larger hospitality experiences, always styled with the WOA standard.",
-    list: ["Bar rental", "Presentation", "Delivery", "Setup"],
-    meta: "Styled support",
-  },
-  {
-    id: "svc-consulting",
-    n: "06",
-    img: "/reference-assets/design-home/svc-present.jpg",
-    tag: "Consulting",
-    title: ["Beverage Consulting", "& Hospitality"],
-    it: " Development",
-    desc:
-      "Beverage consulting and hospitality development for restaurants, bars, lounges, hotels and concepts looking to elevate their beverage identity.",
-    list: ["Menu architecture", "Operations review", "Training", "Concept support"],
-    meta: "Advisory",
   },
 ] as const;
 
@@ -131,10 +94,10 @@ function MenuIcon() {
 }
 
 export default function HomePage() {
-  const [market, setMarket] = useState<Market>("nyc");
   const [menuOpen, setMenuOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
   const [galleryFilter, setGalleryFilter] = useState<GalleryFilter>("All");
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
@@ -144,6 +107,10 @@ export default function HomePage() {
   }, [menuOpen]);
 
   useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 24);
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+
     const onKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Escape") {
         setMenuOpen(false);
@@ -152,21 +119,20 @@ export default function HomePage() {
     };
 
     window.addEventListener("keydown", onKeyDown);
-    return () => window.removeEventListener("keydown", onKeyDown);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("keydown", onKeyDown);
+    };
   }, []);
 
-  const heroImage =
-    market === "mia" ? "/reference-assets/design-home/miami-sunset.jpg" : "/reference-assets/design-home/hero-bridge.jpg";
-
+  const heroImage = "/reference-assets/design-home/hero-bridge.jpg";
   const aboutQuote =
-    market === "mia"
-      ? "Miami, we’re honored to bring WOA to your city. After six years of hosting in New York, we’re here to do the same thing we’ve always done: pour with intention, host with warmth, and make every evening feel like a work of art."
-      : "What began during a pandemic, two friends making cocktails on camera, became a hospitality house. We believe every pour is a posture. Every gathering, a chance to make something feel intentional. Thank you for letting us host you.";
+    "What began during a pandemic, two friends making cocktails on camera, became a hospitality house. We believe every pour is a posture. Every gathering, a chance to make something feel intentional. Thank you for letting us host you.";
 
   return (
     <main className={styles.page}>
       <header className={styles.nav}>
-        <Link href="/" className={styles.logo} aria-label="WOA Cocktails home">
+        <Link href="/" className={`${styles.logo} ${scrolled ? styles.logoScrolled : ""}`} aria-label="WOA Cocktails home">
           <span className={styles.logoSeg}>
             <span className={styles.logoCap}>W</span>
             <span className={styles.logoTail}>ork</span>
@@ -217,14 +183,6 @@ export default function HomePage() {
         </nav>
 
         <div className={styles.navRight}>
-          <div className={styles.marketPill} aria-label="Market focus">
-            <button type="button" className={market === "nyc" ? styles.marketOn : ""} onClick={() => setMarket("nyc")}>
-              NYC
-            </button>
-            <button type="button" className={market === "mia" ? styles.marketOn : ""} onClick={() => setMarket("mia")}>
-              Miami
-            </button>
-          </div>
           <Link className={`${styles.button} ${styles.buttonSolid}`} href="/contact">
             Book Now <span className={styles.arr}>→</span>
           </Link>
@@ -260,14 +218,6 @@ export default function HomePage() {
           <a href="#gallery" onClick={() => setMenuOpen(false)}>Gallery</a>
           <Link href="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
           <div className={styles.drawerFoot}>
-            <div className={styles.marketPill}>
-              <button type="button" className={market === "nyc" ? styles.marketOn : ""} onClick={() => setMarket("nyc")}>
-                NYC
-              </button>
-              <button type="button" className={market === "mia" ? styles.marketOn : ""} onClick={() => setMarket("mia")}>
-                Miami
-              </button>
-            </div>
             <Link className={`${styles.button} ${styles.buttonSolid}`} href="/contact">
               Book Now <span className={styles.arr}>→</span>
             </Link>
@@ -277,7 +227,7 @@ export default function HomePage() {
 
       <section className={styles.hero}>
         <div className={styles.heroBg}>
-          <Image src={heroImage} alt="WOA Cocktails luxury mobile bar service" fill priority sizes="100vw" />
+          <Image className={styles.cover} src={heroImage} alt="WOA Cocktails luxury mobile bar service" fill priority sizes="100vw" />
         </div>
         <div className={styles.heroContent}>
           <div className={styles.heroTop}>
@@ -369,7 +319,7 @@ export default function HomePage() {
         <div className={styles.wrap}>
           <div className={styles.beltGrid}>
             <figure className={styles.framed}>
-              <Image src="/reference-assets/design-home/framed-founders.png" alt="WOA co-founders Fabio Perez and Hector Taveras behind their bar, in a gilded frame" fill priority sizes="(max-width: 980px) 90vw, 560px" />
+              <Image className={styles.cover} src="/reference-assets/design-home/framed-founders.png" alt="WOA co-founders Fabio Perez and Hector Taveras behind their bar, in a gilded frame" fill priority sizes="(max-width: 980px) 90vw, 560px" />
             </figure>
             <div className={styles.beltText}>
               <span className={styles.eyebrow}>The House</span>
@@ -415,7 +365,7 @@ export default function HomePage() {
             {SERVICES.map((service) => (
               <article className={styles.svcCard} key={service.id} id={service.id}>
                 <div className={styles.svcThumb}>
-                  <Image src={service.img} alt={service.title.join("") + service.it} fill sizes="(max-width: 920px) 100vw, 33vw" />
+                  <Image className={styles.cover} src={service.img} alt={service.title.join("") + service.it} fill sizes="(max-width: 920px) 100vw, 33vw" />
                   <span className={styles.svcNum}>— {service.n}</span>
                   <span className={styles.svcTag}>{service.tag}</span>
                 </div>
@@ -455,7 +405,7 @@ export default function HomePage() {
 
       <section className={styles.miami}>
         <div className={styles.miamiImg}>
-          <Image src="/reference-assets/design-home/miami-sunset.jpg" alt="WOA rooftop bar at sunset, Miami" fill sizes="(max-width: 980px) 100vw, 55vw" />
+          <Image className={styles.cover} src="/reference-assets/design-home/miami-sunset.jpg" alt="WOA rooftop bar at sunset, Miami" fill sizes="(max-width: 980px) 100vw, 55vw" />
           <span className={styles.miamiStamp}>New · 2026 Expansion</span>
           <span className={styles.miamiCap}>[ rooftop · golden hour · WOA mobile bar ]</span>
         </div>
@@ -506,17 +456,17 @@ export default function HomePage() {
           <div className={styles.foundersGrid}>
             <div className={styles.founderStack}>
               <figure className={`${styles.ph} ${styles.founderImg}`}>
-                <Image src="/reference-assets/design-home/founder-hector.jpg" alt="Hector Taveras, co-founder of WOA Cocktails" fill sizes="(max-width: 980px) 45vw, 280px" />
+                <Image className={styles.cover} src="/reference-assets/design-home/founder-hector.jpg" alt="Hector Taveras, co-founder of WOA Cocktails" fill sizes="(max-width: 980px) 45vw, 280px" />
               </figure>
               <figure className={`${styles.ph} ${styles.founderImg} ${styles.tall}`} style={{ transform: "translateY(48px)" }}>
-                <Image src="/reference-assets/design-home/founder-fabio.jpg" alt="Fabio Perez, co-founder of WOA Cocktails" fill sizes="(max-width: 980px) 45vw, 280px" />
+                <Image className={styles.cover} src="/reference-assets/design-home/founder-fabio.jpg" alt="Fabio Perez, co-founder of WOA Cocktails" fill sizes="(max-width: 980px) 45vw, 280px" />
               </figure>
             </div>
             <div className={styles.foundersCopy}>
               <p className={styles.quote}>{aboutQuote}</p>
               <div className={styles.quoteSig}>
                 <span className={styles.quoteLine} />
-                <span>{market === "mia" ? "Fabio Perez · Co-founder" : "Fabio Perez & Hector Taveras · Co-founders"}</span>
+                <span>Fabio Perez & Hector Taveras · Co-founders</span>
               </div>
               <div className={styles.founderNotes}>
                 <div>
@@ -565,7 +515,7 @@ export default function HomePage() {
               const dim = galleryFilter !== "All" && item.cat !== galleryFilter;
               return (
                 <figure key={item.cap} className={`${styles.gal} ${styles[item.span]} ${dim ? styles.dimGallery : ""}`}>
-                  <Image src={item.img} alt={item.cap} fill sizes="(max-width: 820px) 50vw, 20vw" />
+                  <Image className={styles.cover} src={item.img} alt={item.cap} fill sizes="(max-width: 820px) 50vw, 20vw" />
                   <figcaption className={styles.galCap}>{item.cap}</figcaption>
                 </figure>
               );
@@ -609,7 +559,7 @@ export default function HomePage() {
 
       <section className={styles.ctaBand} id="contact">
         <div className={styles.ctaBandBg}>
-          <Image src="/reference-assets/design-home/cocktail-pomegranate.jpg" alt="" fill sizes="100vw" />
+          <Image className={styles.cover} src="/reference-assets/design-home/cocktail-pomegranate.jpg" alt="" fill sizes="100vw" />
         </div>
         <div className={styles.wrap}>
           <div className={styles.eyebrow}>Inquire</div>
