@@ -260,7 +260,9 @@ export default function HomePage() {
                         Learn more →
                       </Link>
                     ) : (
-                      <span className={styles.arr}>Learn more →</span>
+                      <Link href="/classes" className={styles.arr}>
+                        Learn more →
+                      </Link>
                     )}
                   </div>
                 </div>
@@ -471,7 +473,7 @@ export default function HomePage() {
                 <li><Link href="/mobile-bar">Mobile Bar Experience</Link></li>
                 <li><Link href="/staffing">Bartender Services</Link></li>
                 <li><Link href="/pricing">Packages &amp; Pricing</Link></li>
-                <li><a href="#services">Mixology Classes</a></li>
+                <li><Link href="/classes">Mixology Classes</Link></li>
               </ul>
             </div>
             <div>

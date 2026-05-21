@@ -47,6 +47,7 @@ All current-site assets live under [`public/reference-assets/current-site`](../p
 The About page now also uses design bundle photography stored under [`public/reference-assets/design-about`](../public/reference-assets/design-about)
 The Home page now also uses design bundle photography stored under [`public/reference-assets/design-home`](../public/reference-assets/design-home)
 The Mobile Bar page now uses the approved red-line hero illustration stored under [`public/reference-assets/design-home/mobile-bar-line-art-red.png`](../public/reference-assets/design-home/mobile-bar-line-art-red.png)
+The Mixology Private Classes page now uses the current-site classes assets stored under [`public/reference-assets/current-site/classes`](../public/reference-assets/current-site/classes) and [`public/reference-assets/current-site/events/ink-cocktail-class`](../public/reference-assets/current-site/events/ink-cocktail-class)
 
 ## Follow-up item
 

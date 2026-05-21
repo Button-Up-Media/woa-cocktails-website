@@ -80,7 +80,7 @@ export default function SiteHeader() {
               {[
                 { label: "Mobile Bar Experience", href: "/mobile-bar", num: "01" },
                 { label: "Bartending & Hospitality Staffing", href: "/staffing", num: "02" },
-                { label: "Mixology Private Classes", href: "/pricing", num: "03" },
+                { label: "Mixology Private Classes", href: "/classes", num: "03" },
               ].map((item) => (
                 <Link key={item.label} href={item.href} role="menuitem" className={styles.servicesItem} onClick={() => setServicesOpen(false)}>
                   <span className={styles.servicesNum}>{item.num}</span>
@@ -117,7 +117,7 @@ export default function SiteHeader() {
             {[
               { label: "Mobile Bar Experience", href: "/mobile-bar", num: "01" },
               { label: "Bartending & Hospitality Staffing", href: "/staffing", num: "02" },
-              { label: "Mixology Private Classes", href: "/pricing", num: "03" },
+              { label: "Mixology Private Classes", href: "/classes", num: "03" },
             ].map((item) => (
               <Link key={item.label} href={item.href} onClick={() => setMenuOpen(false)} className={styles.drawerSub}>
                 <span className={styles.servicesNum}>{item.num}</span>

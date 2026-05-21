@@ -142,7 +142,7 @@ function Footer() {
                 <Link href="/staffing">Bartending &amp; Hospitality Staffing</Link>
               </li>
               <li>
-                <Link href="/contact">Mixology Classes</Link>
+                <Link href="/classes">Mixology Classes</Link>
               </li>
               <li>
                 <Link href="/contact">Beverage Consulting</Link>
