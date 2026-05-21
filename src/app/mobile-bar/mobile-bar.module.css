@@ -342,6 +342,7 @@
   max-width: 560px;
   display: block;
   margin: 0 auto;
+  object-fit: contain;
 }
 
 .heroArtFrame figcaption {

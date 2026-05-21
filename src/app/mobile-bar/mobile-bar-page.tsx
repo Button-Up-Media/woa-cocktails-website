@@ -117,43 +117,14 @@ function MenuIcon() {
 
 function MBLineArt() {
   return (
-    <svg className={styles.heroArt} viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-      <path d="M 40 560 L 960 560" />
-      <path d="M 250 558 L 250 550 Q 256 548 262 550 L 488 550 Q 494 548 500 550 L 500 558" />
-      <path d="M 376 550 Q 366 528 388 524 Q 408 528 410 546 Q 408 550 404 550" />
-      <path d="M 418 550 Q 414 534 432 530 Q 446 536 446 548 Q 444 550 440 550" />
-      <path d="M 452 550 Q 448 540 462 538 Q 472 542 470 550" />
-      <path d="M 270 420 L 388 420" />
-      <path d="M 270 420 L 328 506" />
-      <path d="M 388 420 L 328 506" />
-      <path d="M 328 506 L 328 550" />
-      <path d="M 304 550 L 352 550" />
-      <path d="M 192 175 Q 175 130 195 95 Q 218 60 254 58 Q 286 60 305 84" />
-      <path d="M 215 78 Q 232 60 258 64 Q 273 72 268 86" />
-      <path d="M 305 84 Q 320 96 320 116" />
-      <path d="M 320 116 Q 332 124 322 134 Q 318 138 326 144 Q 326 158 314 160" />
-      <path d="M 314 160 Q 314 172 300 178" />
-      <path d="M 300 178 Q 282 192 254 196" />
-      <path d="M 192 175 Q 192 218 222 232" />
-      <path d="M 254 196 Q 254 218 244 232" />
-      <path d="M 222 232 Q 250 244 280 240" />
-      <path d="M 222 232 Q 218 250 220 264" />
-      <path d="M 192 218 Q 152 244 138 296 Q 128 354 134 408 Q 138 460 152 500 Q 168 532 200 540" />
-      <path d="M 280 240 Q 320 252 344 280 Q 360 308 354 340 Q 344 372 312 388" />
-      <path d="M 260 260 L 296 320" />
-      <path d="M 296 320 L 268 380" />
-      <path d="M 268 380 L 296 432" />
-      <path d="M 200 540 L 330 540 Q 350 540 354 522 L 354 460" />
-      <path d="M 138 320 Q 180 366 240 370 Q 296 368 312 388" />
-      <path d="M 304 384 Q 312 392 322 390" />
-      <path d="M 280 240 Q 332 218 376 200 Q 420 188 456 188" />
-      <path d="M 456 188 Q 466 178 478 178 Q 490 180 496 188" />
-      <path d="M 456 188 Q 462 200 472 204 Q 488 206 498 198" />
-      <path d="M 498 198 L 514 138 L 580 152 L 568 214 Z" />
-      <path d="M 508 162 L 574 176" />
-      <path d="M 510 152 L 576 166" />
-      <path d="M 514 138 L 522 124 L 568 134 L 562 148" />
-    </svg>
+    <Image
+      className={styles.heroArt}
+      src="/reference-assets/design-home/mobile-bar-line-art-red.png"
+      alt="Red line-art mobile bar illustration"
+      width={1254}
+      height={1254}
+      priority
+    />
   );
 }
 

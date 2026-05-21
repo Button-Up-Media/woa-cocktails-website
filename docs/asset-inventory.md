@@ -46,6 +46,7 @@ All current-site assets live under [`public/reference-assets/current-site`](../p
 
 The About page now also uses design bundle photography stored under [`public/reference-assets/design-about`](../public/reference-assets/design-about)
 The Home page now also uses design bundle photography stored under [`public/reference-assets/design-home`](../public/reference-assets/design-home)
+The Mobile Bar page now uses the approved red-line hero illustration stored under [`public/reference-assets/design-home/mobile-bar-line-art-red.png`](../public/reference-assets/design-home/mobile-bar-line-art-red.png)
 
 ## Follow-up item
 
