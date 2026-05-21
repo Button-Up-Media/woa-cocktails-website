@@ -10,16 +10,16 @@
   gap: 24px;
   padding: 20px 48px;
   border-bottom: 1px solid transparent;
-  background: rgba(11, 9, 7, 0.28);
-  backdrop-filter: blur(22px) saturate(160%);
-  -webkit-backdrop-filter: blur(22px) saturate(160%);
+  background: rgba(11, 9, 7, 0.14);
+  backdrop-filter: blur(28px) saturate(180%);
+  -webkit-backdrop-filter: blur(28px) saturate(180%);
   transition: background 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
 .scrolled {
-  background: rgba(11, 9, 7, 0.46);
-  border-bottom-color: rgba(235, 227, 210, 0.08);
-  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.22), 0 18px 48px rgba(0, 0, 0, 0.14);
+  background: rgba(11, 9, 7, 0.32);
+  border-bottom-color: rgba(235, 227, 210, 0.1);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.22), 0 18px 48px rgba(0, 0, 0, 0.18);
 }
 
 .logo {
@@ -27,12 +27,13 @@
   align-items: baseline;
   gap: 0;
   font-family: var(--display);
-  font-size: 24px;
+  font-size: 26px;
   color: var(--fg);
-  letter-spacing: 0.42em;
-  padding-left: 0.42em;
+  letter-spacing: 0.38em;
+  padding-left: 0.38em;
   white-space: nowrap;
   text-decoration: none;
+  line-height: 1;
 }
 
 .logoSeg { display: inline-flex; align-items: baseline; }
@@ -58,16 +59,16 @@
 }
 .logoDiamond {
   display: inline-block;
-  width: 9px;
-  height: 9px;
-  margin-left: 8px;
+  width: 10px;
+  height: 10px;
+  margin-left: 10px;
   background: var(--crimson);
-  transform: rotate(45deg) translateY(-4px);
+  transform: rotate(45deg) translateY(-3px);
   transition: transform 0.5s ease;
 }
 .logo:hover .logoTail, .logoScrolled .logoTail { max-width: 4em; opacity: 1; margin-left: 1px; }
 .logo:hover .logoSep, .logoScrolled .logoSep { max-width: 1em; opacity: 1; margin: 0 10px; }
-.logo:hover .logoDiamond, .logoScrolled .logoDiamond { transform: rotate(225deg) translateY(-4px); }
+.logo:hover .logoDiamond, .logoScrolled .logoDiamond { transform: rotate(45deg) translateY(-3px) scale(1.02); }
 
 .navLinks {
   display: flex;
@@ -93,6 +94,10 @@
 }
 
 .servicesMenu { position: relative; }
+.servicesMenu {
+  padding-bottom: 18px;
+  margin-bottom: -18px;
+}
 .servicesTrigger {
   display: inline-flex;
   align-items: center;
@@ -109,13 +114,13 @@
 
 .servicesPanel {
   position: absolute;
-  top: calc(100% + 20px);
+  top: calc(100% + 2px);
   left: 50%;
   min-width: 340px;
   transform: translate(-50%, -8px);
   background: rgba(11, 9, 7, 0.82);
-  backdrop-filter: blur(22px) saturate(160%);
-  -webkit-backdrop-filter: blur(22px) saturate(160%);
+  backdrop-filter: blur(28px) saturate(180%);
+  -webkit-backdrop-filter: blur(28px) saturate(180%);
   border: 1px solid var(--line-strong);
   opacity: 0;
   visibility: hidden;

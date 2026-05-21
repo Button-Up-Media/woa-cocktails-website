@@ -66,7 +66,11 @@ export default function SiteHeader() {
         </Link>
 
         <nav className={styles.navLinks} aria-label="Primary">
-          <div className={styles.servicesMenu} onMouseLeave={() => setServicesOpen(false)}>
+          <div
+            className={styles.servicesMenu}
+            onMouseEnter={() => setServicesOpen(true)}
+            onMouseLeave={() => setServicesOpen(false)}
+          >
             <button
               type="button"
               className={styles.servicesTrigger}
@@ -91,7 +95,6 @@ export default function SiteHeader() {
             </div>
           </div>
           <Link href="/about">About</Link>
-          <Link href="/contact">Contact</Link>
         </nav>
 
         <div className={styles.navRight}>
@@ -126,7 +129,6 @@ export default function SiteHeader() {
             ))}
           </div>
           <Link href="/about" onClick={() => setMenuOpen(false)}>About</Link>
-          <Link href="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
           <Link href="/pricing" onClick={() => setMenuOpen(false)}>Pricing</Link>
           <div className={styles.drawerFoot}>
             <Link className={`${styles.button} ${styles.buttonSolid}`} href="/contact" onClick={() => setMenuOpen(false)}>
