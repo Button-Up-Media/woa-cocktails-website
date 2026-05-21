@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { useEffect, useState } from "react";
 import styles from "./about.module.css";
 
@@ -297,17 +296,6 @@ export default function AboutConstellation() {
 
   return (
     <>
-      <header className={styles.header}>
-        <Link href="/" className={styles.brand} aria-label="WOA Cocktails home">
-          <span className={styles.brandWord}>WOA</span>
-          <span className={styles.brandDot} aria-hidden="true" />
-        </Link>
-        <div className={styles.headerMeta}>
-          <span>New York · Miami</span>
-          <span>About / Founders</span>
-        </div>
-      </header>
-
       <section
         className={`${styles.stage} ${active ? styles.stageActive : ""}`}
         onClick={() => setActive(null)}

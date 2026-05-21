@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import styles from "./home.module.css";
 
 type GalleryFilter = "All" | "Weddings" | "Corporate" | "Rooftop" | "Brand" | "Cocktails";
@@ -83,47 +83,8 @@ const TESTIMONIALS = [
   },
 ] as const;
 
-function MenuIcon() {
-  return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-      <path d="M3 6h18" />
-      <path d="M3 12h18" />
-      <path d="M3 18h18" />
-    </svg>
-  );
-}
-
 export default function HomePage() {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const [servicesOpen, setServicesOpen] = useState(false);
   const [galleryFilter, setGalleryFilter] = useState<GalleryFilter>("All");
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    document.body.style.overflow = menuOpen ? "hidden" : "";
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, [menuOpen]);
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 24);
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-
-    const onKeyDown = (event: KeyboardEvent) => {
-      if (event.key === "Escape") {
-        setMenuOpen(false);
-        setServicesOpen(false);
-      }
-    };
-
-    window.addEventListener("keydown", onKeyDown);
-    return () => {
-      window.removeEventListener("scroll", onScroll);
-      window.removeEventListener("keydown", onKeyDown);
-    };
-  }, []);
 
   const heroImage = "/reference-assets/design-home/hero-bridge.jpg";
   const aboutQuote =
@@ -131,100 +92,6 @@ export default function HomePage() {
 
   return (
     <main className={styles.page}>
-      <header className={styles.nav}>
-        <Link href="/" className={`${styles.logo} ${scrolled ? styles.logoScrolled : ""}`} aria-label="WOA Cocktails home">
-          <span className={styles.logoSeg}>
-            <span className={styles.logoCap}>W</span>
-            <span className={styles.logoTail}>ork</span>
-          </span>
-          <span className={styles.logoSep}>·</span>
-          <span className={styles.logoSeg}>
-            <span className={styles.logoCap}>O</span>
-            <span className={styles.logoTail}>f</span>
-          </span>
-          <span className={styles.logoSep}>·</span>
-          <span className={styles.logoSeg}>
-            <span className={styles.logoCap}>A</span>
-            <span className={styles.logoTail}>rt</span>
-          </span>
-          <span className={styles.logoDiamond} aria-hidden="true" />
-        </Link>
-
-        <nav className={styles.navLinks} aria-label="Primary">
-          <div
-            className={`${styles.servicesMenu} ${servicesOpen ? styles.servicesOpen : ""}`}
-            onMouseLeave={() => setServicesOpen(false)}
-          >
-            <button
-              type="button"
-              className={styles.servicesTrigger}
-              aria-haspopup="true"
-              aria-expanded={servicesOpen}
-              onClick={() => setServicesOpen((value) => !value)}
-            >
-              Services <span className={styles.chev} aria-hidden="true">▾</span>
-            </button>
-            <div className={styles.servicesPanel} role="menu">
-              {[
-                { label: "Mobile Bar Experience", href: "/mobile-bar", num: "01" },
-                { label: "Bartending & Hospitality Staffing", href: "/staffing", num: "02" },
-                { label: "Mixology Private Classes", href: "#services", num: "03" },
-              ].map((item) => (
-                <a key={item.label} href={item.href} role="menuitem" className={styles.servicesItem} onClick={() => setServicesOpen(false)}>
-                  <span className={styles.servicesNum}>{item.num}</span>
-                  <span className={styles.servicesLabel}>{item.label}</span>
-                  <span className={styles.servicesArrow}>→</span>
-                </a>
-              ))}
-            </div>
-          </div>
-          <Link href="/about">About</Link>
-          <Link href="/contact">Contact</Link>
-        </nav>
-
-        <div className={styles.navRight}>
-          <Link className={`${styles.button} ${styles.buttonSolid}`} href="/contact">
-            Book Now <span className={styles.arr}>→</span>
-          </Link>
-          <button
-            type="button"
-            className={`${styles.burger} ${menuOpen ? styles.burgerOpen : ""}`}
-            aria-label={menuOpen ? "Close menu" : "Open menu"}
-            aria-expanded={menuOpen}
-            onClick={() => setMenuOpen((value) => !value)}
-          >
-            <MenuIcon />
-          </button>
-        </div>
-      </header>
-
-      <div className={`${styles.drawer} ${menuOpen ? styles.drawerOpen : ""}`} aria-hidden={!menuOpen}>
-        <div className={styles.drawerInner}>
-          <div className={styles.drawerGroup}>
-            <div className={styles.drawerLabel}>Services</div>
-            {[
-              { label: "Mobile Bar Experience", href: "/mobile-bar", num: "01" },
-              { label: "Bartending & Hospitality Staffing", href: "/staffing", num: "02" },
-              { label: "Mixology Private Classes", href: "#services", num: "03" },
-            ].map((item) => (
-              <a key={item.label} href={item.href} onClick={() => setMenuOpen(false)} className={styles.drawerSub}>
-                <span className={styles.servicesNum}>{item.num}</span>
-                {item.label}
-              </a>
-            ))}
-          </div>
-          <Link href="/about" onClick={() => setMenuOpen(false)}>About</Link>
-          <a href="#founders" onClick={() => setMenuOpen(false)}>Founders</a>
-          <a href="#gallery" onClick={() => setMenuOpen(false)}>Gallery</a>
-          <Link href="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
-          <div className={styles.drawerFoot}>
-            <Link className={`${styles.button} ${styles.buttonSolid}`} href="/contact">
-              Book Now <span className={styles.arr}>→</span>
-            </Link>
-          </div>
-        </div>
-      </div>
-
       <section className={styles.hero}>
         <div className={styles.heroBg}>
           <Image className={styles.cover} src={heroImage} alt="WOA Cocktails luxury mobile bar service" fill priority sizes="100vw" />

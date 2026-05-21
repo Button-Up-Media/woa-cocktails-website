@@ -2,10 +2,8 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import styles from "./contact.module.css";
-
-type Market = "nyc" | "mia";
 
 const TIME_SLOTS = [
   "9:00 AM",
@@ -43,16 +41,6 @@ const FAQS = [
     a: "Absolutely. Our zero-proof and low-ABV programs are treated with the same care as our spirited menus, with the same craft, presentation and hospitality standard.",
   },
 ] as const;
-
-function MenuIcon() {
-  return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-      <path d="M3 6h18" />
-      <path d="M3 12h18" />
-      <path d="M3 18h18" />
-    </svg>
-  );
-}
 
 function buildCalendar() {
   const days: Array<{ day: number; off?: boolean; available?: boolean }> = [];
@@ -313,81 +301,6 @@ function Coverage() {
   );
 }
 
-function Header({ market, setMarket, menuOpen, setMenuOpen }: { market: Market; setMarket: (next: Market) => void; menuOpen: boolean; setMenuOpen: (next: boolean) => void; }) {
-  return (
-    <header className={styles.nav}>
-      <Link href="/" className={styles.logo} aria-label="WOA Cocktails home">
-        <span className={styles.logoText}>WOA</span>
-        <span className={styles.logoDiamond} aria-hidden="true" />
-      </Link>
-
-      <nav className={styles.navLinks} aria-label="Primary">
-        <Link href="/about">About</Link>
-        <a href="#schedule">Scheduler</a>
-        <Link href="/contact" className={styles.activeLink}>
-          Contact
-        </Link>
-      </nav>
-
-      <div className={styles.navRight}>
-        <div className={styles.marketPill} aria-label="Market focus">
-          <button type="button" className={market === "nyc" ? styles.marketOn : ""} onClick={() => setMarket("nyc")}>
-            NYC
-          </button>
-          <button type="button" className={market === "mia" ? styles.marketOn : ""} onClick={() => setMarket("mia")}>
-            Miami
-          </button>
-        </div>
-        <a className={styles.bookButton} href="#schedule">
-          Book Now <span aria-hidden="true">→</span>
-        </a>
-        <button
-          type="button"
-          className={styles.burger}
-          aria-label={menuOpen ? "Close menu" : "Open menu"}
-          aria-expanded={menuOpen}
-          onClick={() => setMenuOpen(!menuOpen)}
-        >
-          <MenuIcon />
-        </button>
-      </div>
-    </header>
-  );
-}
-
-function MobileMenu({ market, setMarket, menuOpen, setMenuOpen }: { market: Market; setMarket: (next: Market) => void; menuOpen: boolean; setMenuOpen: (next: boolean) => void; }) {
-  return (
-    <div className={[styles.drawer, menuOpen ? styles.drawerOpen : ""].filter(Boolean).join(" ")} aria-hidden={!menuOpen}>
-      <div className={styles.drawerInner}>
-        <div className={styles.drawerLinks}>
-          <Link href="/about" onClick={() => setMenuOpen(false)}>
-            About
-          </Link>
-          <a href="#schedule" onClick={() => setMenuOpen(false)}>
-            Scheduler
-          </a>
-          <Link href="/contact" onClick={() => setMenuOpen(false)}>
-            Contact
-          </Link>
-        </div>
-        <div className={styles.drawerFoot}>
-          <div className={styles.marketPill}>
-            <button type="button" className={market === "nyc" ? styles.marketOn : ""} onClick={() => setMarket("nyc")}>
-              NYC
-            </button>
-            <button type="button" className={market === "mia" ? styles.marketOn : ""} onClick={() => setMarket("mia")}>
-              Miami
-            </button>
-          </div>
-          <a className={styles.bookButton} href="#schedule" onClick={() => setMenuOpen(false)}>
-            Book Now <span aria-hidden="true">→</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  );
-}
-
 function Footer() {
   return (
     <footer className={styles.footer}>
@@ -446,32 +359,8 @@ function Footer() {
 }
 
 export default function ContactPage() {
-  const [market, setMarket] = useState<Market>("nyc");
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  useEffect(() => {
-    document.body.style.overflow = menuOpen ? "hidden" : "";
-    return () => {
-      document.body.style.overflow = "";
-    };
-  }, [menuOpen]);
-
-  useEffect(() => {
-    const onKeyDown = (event: KeyboardEvent) => {
-      if (event.key === "Escape") {
-        setMenuOpen(false);
-      }
-    };
-
-    window.addEventListener("keydown", onKeyDown);
-    return () => window.removeEventListener("keydown", onKeyDown);
-  }, []);
-
   return (
     <main className={styles.page}>
-      <Header market={market} setMarket={setMarket} menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <MobileMenu market={market} setMarket={setMarket} menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-
       <section className={styles.hero}>
         <div className={styles.wrap}>
           <div className={styles.heroGrid}>
