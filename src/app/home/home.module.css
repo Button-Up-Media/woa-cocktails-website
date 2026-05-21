@@ -1352,11 +1352,13 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(11, 9, 7, 0.85), rgba(11, 9, 7, 0.9) 50%, rgba(11, 9, 7, 0.98));
+  background:
+    linear-gradient(180deg, rgba(11, 9, 7, 0.2), rgba(11, 9, 7, 0.34) 42%, rgba(11, 9, 7, 0.48) 100%),
+    radial-gradient(circle at 50% 18%, rgba(197, 48, 45, 0.16), transparent 34%);
 }
 
 .ctaBandBg img {
-  opacity: 0.3;
+  opacity: 0.58;
   object-fit: cover;
 }
 
